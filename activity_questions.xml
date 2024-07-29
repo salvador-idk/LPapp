@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="verifica que el trabajador?"/>
+
+        <CheckBox android:id="@+id/checkbox_s1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Sí" />
+
+        <CheckBox android:id="@+id/checkbox_s1no"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="No" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="verifica que exista uuna condicion ins?"/>
+
+        <CheckBox android:id="@+id/checkbox_s2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Sí"/>
+
+        <CheckBox android:id="@+id/checkbox_s2no"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="No" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="El equipo se encuentra?"/>
+
+        <CheckBox android:id="@+id/checkbox_s3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Sí" />
+
+        <CheckBox android:id="@+id/checkbox_s3no"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="No" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="El area está?"/>
+
+        <CheckBox android:id="@+id/checkbox_s4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Sí"/>
+
+        <CheckBox android:id="@+id/checkbox_s4no"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="No" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="s1?"/>
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="50dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
